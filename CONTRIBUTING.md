@@ -42,3 +42,7 @@ A sample of events that work in the processor is required for merge approval
 Any sample data included with the template must be placed into the `samples` directory, and have a descriptive name.
 
 ⚠️ Absolutely no sensitive data should be committed to this repo! You are responsible for ensure the complete sanitization of any submitted samples.
+
+## Recommendations
+
+It is recommended that you pretty print your JSON templates before opening your pull request. a great tool for this is [jsonformatter.org](jsonformatter.org).
