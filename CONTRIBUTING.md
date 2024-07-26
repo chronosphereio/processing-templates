@@ -26,6 +26,12 @@ processors/
 
 `<processor_id>` is a simple descriptive name for the collector template.
 
+### Lua Script Examples
+
+Lua script examples should all be stored in the following path: `processors/lua_examples/<lua_name>/template.json` using the same logical structure as other projects. 
+
+`<lua_name>` is a descriptive name for the function of the lua script in question.
+
 ## Standards
 
 Each template directory must include a README file with a minimum set of details:
