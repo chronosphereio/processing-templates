@@ -26,6 +26,12 @@ processors/
 
 `<processor_id>` is a simple descriptive name for the collector template.
 
+### Lua Script Examples
+
+Lua script examples should all be stored in the following path: `processors/lua_examples/<lua_name>/template.json` using the same logical structure as other projects. 
+
+`<lua_name>` is a descriptive name for the function of the lua script in question.
+
 ## Standards
 
 Each template directory must include a README file with a minimum set of details:
@@ -42,3 +48,7 @@ A sample of events that work in the processor is required for merge approval
 Any sample data included with the template must be placed into the `samples` directory, and have a descriptive name.
 
 ⚠️ Absolutely no sensitive data should be committed to this repo! You are responsible for ensure the complete sanitization of any submitted samples.
+
+## Recommendations
+
+It is recommended that you pretty print your JSON templates before opening your pull request. a great tool for this is [jsonformatter.org](jsonformatter.org).
